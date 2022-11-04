@@ -1,6 +1,6 @@
 #!/bin/bash
 read dir
-CREATEDIR=/home/ycahn/Open_Source_Young.A/src/$dir
+CREATEDIR=/home/ycahn/Open_Source_Young.A/src/src/$dir
 echo $CREATEDIR
 if [ ! -d $CREATEDIR ]; then
 {

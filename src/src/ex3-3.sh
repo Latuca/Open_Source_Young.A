@@ -2,8 +2,8 @@
 echo "체중(kg)/키(cm):"
 read w h
 pow=$(($h * $h))
-pow=$(echo "scale=6; $pow/10000"|bc)
-BMI=$(echo "scale=2; $w/$pow" | bc)
+rad=$(echo "scale=6; $pow/10000"|bc)
+BMI=$(echo "scale=2; $w/$rad" | bc)
 echo $BMI
 left=18
 right=23.5
